@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'org.example'
+group = 'ru.vsu.foreign_language_courses_client'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -10,8 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework:spring-web:6.0.14'
-    implementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
